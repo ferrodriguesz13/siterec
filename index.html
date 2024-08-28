@@ -3,105 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia HTML Básico</title>
-    <link rel="stylesheet" href="style.css"> <!-- Opcional: Arquivo CSS para estilos -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 0;
-        }
-        header {
-            background-color: #f2f2f2;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        nav ul li {
-            margin-right: 20px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-        }
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 30px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            color: #333;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin-bottom: 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            padding: 10px;
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Como Fazer um Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Guia HTML Básico</h1>
-        <nav>
-            <ul>
-                <li><a href="#heading-usage">Uso dos Títulos (h1-h6)</a></li>
-                <li><a href="#paragraph-usage">Uso de Parágrafos (p)</a></li>
-                <li><a href="#image-usage">Uso de Imagens (img)</a></li>
-            </ul>
-        </nav>
+        <h1>Como Fazer um Site</h1>
     </header>
 
     <main>
-        <section id="heading-usage">
-            <h2>Uso dos Títulos (h1-h6)</h2>
-            <p>Os elementos de cabeçalho "h1" a "h6" </h6> são usados para definir títulos e subtítulos em uma página HTML.</p>
-            <p>Cada elemento de cabeçalho tem um nível de importância, sendo "h1" o mais importante e "h6" o menos. Eles são utilizados para estruturar o conteúdo da página de maneira hierárquica.</p>
-            <h3>Exemplo:</h3>
-            <h1>Título Principal (h1)</h1>
-            <h2>Subtítulo (h2)</h2>
-            <h3>Sub-subtítulo (h3)</h3>
-            <h4>Sub-sub-subtítulo (h4)</h4>
-            <h5>Sub-sub-sub-subtítulo (h5)</h5>
-            <h6>Sub-sub-sub-sub-subtítulo (h6)</h6>
+        <section id="introduction">
+            <h2>Introdução</h2>
+            <p>Este guia básico irá te mostrar os passos fundamentais para criar um site simples usando HTML e CSS.</p>
         </section>
 
-        <section id="paragraph-usage">
-            <h2>Uso de Parágrafos (p)</h2>
-            <p>O elemento "p" é usado para representar um parágrafo de texto.</p>
-            <p>Ele é utilizado para agrupar blocos de texto em um parágrafo coeso e pode conter tanto texto simples quanto conteúdo mais complexo, como links e imagens.</p>
-            <h3>Exemplo:</h3>
-            <p>Este é um parágrafo simples.</p>
-            <p>Outro parágrafo para exemplificar.</p>
+        <section id="html-basics">
+            <h2>Fundamentos de HTML</h2>
+            <p>HTML (HyperText Markup Language) é a linguagem padrão para criar páginas da web. É usado para estruturar o conteúdo da sua página.</p>
+            <p>Um documento HTML básico começa com a declaração do tipo de documento e inclui as tags principais: <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, e <code>&lt;body&gt;</code>.</p>
         </section>
 
-        <section id="image-usage">
-            <h2>Uso de Imagens (img)</h2>
-            <p>O elemento "img" é usado para incluir imagens em uma página web.</p>
-            <p>Para exibir uma imagem, você precisa fornecer o caminho (`src`) para o arquivo de imagem. O atributo `alt` é usado para descrever a imagem para usuários que não conseguem visualizá-la.</p>
-            <h3>Exemplo:</h3>
-            "<.img src="caminho-da-imagem.jpg" alt="Descrição da imagem".>"
+        <section id="css-basics">
+            <h2>Fundamentos de CSS</h2>
+            <p>CSS (Cascading Style Sheets) é usado para estilizar o conteúdo HTML. Com CSS, você pode controlar o layout, cores, fontes e outros aspectos visuais da sua página.</p>
+            <p>Um exemplo de código CSS inclui regras para estilizar elementos HTML, como se segue:</p>
+            <pre><code>body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    font-size: 30px;
+    color: blue;
+}
+h2 {
+    font-size: 20px;
+    color: red;
+}
+p {
+    font-size: 15px;
+    font-family: "Times New Roman", serif;
+    color: black;
+}</code></pre>
         </section>
     </main>
 
     <footer>
-      
-    <oter>
+        <p>&copy; 2024 Guia de Criação de Sites</p>
+    </footer>
 </body>
 </html>
